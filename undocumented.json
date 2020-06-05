@@ -1,0 +1,817 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 9,
+      "symbol": "KeyboardShortcuts.Key.a",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 10,
+      "symbol": "KeyboardShortcuts.Key.b",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 11,
+      "symbol": "KeyboardShortcuts.Key.c",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 12,
+      "symbol": "KeyboardShortcuts.Key.d",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 13,
+      "symbol": "KeyboardShortcuts.Key.e",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 14,
+      "symbol": "KeyboardShortcuts.Key.f",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 15,
+      "symbol": "KeyboardShortcuts.Key.g",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 16,
+      "symbol": "KeyboardShortcuts.Key.h",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 17,
+      "symbol": "KeyboardShortcuts.Key.i",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 18,
+      "symbol": "KeyboardShortcuts.Key.j",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 19,
+      "symbol": "KeyboardShortcuts.Key.k",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 20,
+      "symbol": "KeyboardShortcuts.Key.l",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 21,
+      "symbol": "KeyboardShortcuts.Key.m",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 22,
+      "symbol": "KeyboardShortcuts.Key.n",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 23,
+      "symbol": "KeyboardShortcuts.Key.o",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 24,
+      "symbol": "KeyboardShortcuts.Key.p",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 25,
+      "symbol": "KeyboardShortcuts.Key.q",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 26,
+      "symbol": "KeyboardShortcuts.Key.r",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 27,
+      "symbol": "KeyboardShortcuts.Key.s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 28,
+      "symbol": "KeyboardShortcuts.Key.t",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 29,
+      "symbol": "KeyboardShortcuts.Key.u",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 30,
+      "symbol": "KeyboardShortcuts.Key.v",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 31,
+      "symbol": "KeyboardShortcuts.Key.w",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 32,
+      "symbol": "KeyboardShortcuts.Key.x",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 33,
+      "symbol": "KeyboardShortcuts.Key.y",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 34,
+      "symbol": "KeyboardShortcuts.Key.z",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 38,
+      "symbol": "KeyboardShortcuts.Key.zero",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 39,
+      "symbol": "KeyboardShortcuts.Key.one",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 40,
+      "symbol": "KeyboardShortcuts.Key.two",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 41,
+      "symbol": "KeyboardShortcuts.Key.three",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 42,
+      "symbol": "KeyboardShortcuts.Key.four",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 43,
+      "symbol": "KeyboardShortcuts.Key.five",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 44,
+      "symbol": "KeyboardShortcuts.Key.six",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 45,
+      "symbol": "KeyboardShortcuts.Key.seven",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 46,
+      "symbol": "KeyboardShortcuts.Key.eight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 47,
+      "symbol": "KeyboardShortcuts.Key.nine",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 50,
+      "symbol": "KeyboardShortcuts.Key.capsLock",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 51,
+      "symbol": "KeyboardShortcuts.Key.shift",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 52,
+      "symbol": "KeyboardShortcuts.Key.function",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 53,
+      "symbol": "KeyboardShortcuts.Key.control",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 54,
+      "symbol": "KeyboardShortcuts.Key.option",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 55,
+      "symbol": "KeyboardShortcuts.Key.command",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 56,
+      "symbol": "KeyboardShortcuts.Key.rightCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 57,
+      "symbol": "KeyboardShortcuts.Key.rightOption",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 58,
+      "symbol": "KeyboardShortcuts.Key.rightControl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 59,
+      "symbol": "KeyboardShortcuts.Key.rightShift",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 62,
+      "symbol": "KeyboardShortcuts.Key.return",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 63,
+      "symbol": "KeyboardShortcuts.Key.backslash",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 64,
+      "symbol": "KeyboardShortcuts.Key.backtick",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 65,
+      "symbol": "KeyboardShortcuts.Key.comma",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 66,
+      "symbol": "KeyboardShortcuts.Key.equal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 67,
+      "symbol": "KeyboardShortcuts.Key.minus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 68,
+      "symbol": "KeyboardShortcuts.Key.period",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 69,
+      "symbol": "KeyboardShortcuts.Key.quote",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 70,
+      "symbol": "KeyboardShortcuts.Key.semicolon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 71,
+      "symbol": "KeyboardShortcuts.Key.slash",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 72,
+      "symbol": "KeyboardShortcuts.Key.space",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 73,
+      "symbol": "KeyboardShortcuts.Key.tab",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 74,
+      "symbol": "KeyboardShortcuts.Key.leftBracket",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 75,
+      "symbol": "KeyboardShortcuts.Key.rightBracket",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 76,
+      "symbol": "KeyboardShortcuts.Key.pageUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 77,
+      "symbol": "KeyboardShortcuts.Key.pageDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 78,
+      "symbol": "KeyboardShortcuts.Key.home",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 79,
+      "symbol": "KeyboardShortcuts.Key.end",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 80,
+      "symbol": "KeyboardShortcuts.Key.upArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 81,
+      "symbol": "KeyboardShortcuts.Key.rightArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 82,
+      "symbol": "KeyboardShortcuts.Key.downArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 83,
+      "symbol": "KeyboardShortcuts.Key.leftArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 84,
+      "symbol": "KeyboardShortcuts.Key.escape",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 85,
+      "symbol": "KeyboardShortcuts.Key.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 86,
+      "symbol": "KeyboardShortcuts.Key.deleteForward",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 87,
+      "symbol": "KeyboardShortcuts.Key.help",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 88,
+      "symbol": "KeyboardShortcuts.Key.mute",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 89,
+      "symbol": "KeyboardShortcuts.Key.volumeUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 90,
+      "symbol": "KeyboardShortcuts.Key.volumeDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 93,
+      "symbol": "KeyboardShortcuts.Key.f1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 94,
+      "symbol": "KeyboardShortcuts.Key.f2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 95,
+      "symbol": "KeyboardShortcuts.Key.f3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 96,
+      "symbol": "KeyboardShortcuts.Key.f4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 97,
+      "symbol": "KeyboardShortcuts.Key.f5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 98,
+      "symbol": "KeyboardShortcuts.Key.f6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 99,
+      "symbol": "KeyboardShortcuts.Key.f7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 100,
+      "symbol": "KeyboardShortcuts.Key.f8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 101,
+      "symbol": "KeyboardShortcuts.Key.f9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 102,
+      "symbol": "KeyboardShortcuts.Key.f10",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 103,
+      "symbol": "KeyboardShortcuts.Key.f11",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 104,
+      "symbol": "KeyboardShortcuts.Key.f12",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 105,
+      "symbol": "KeyboardShortcuts.Key.f13",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 106,
+      "symbol": "KeyboardShortcuts.Key.f14",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 107,
+      "symbol": "KeyboardShortcuts.Key.f15",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 108,
+      "symbol": "KeyboardShortcuts.Key.f16",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 109,
+      "symbol": "KeyboardShortcuts.Key.f17",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 110,
+      "symbol": "KeyboardShortcuts.Key.f18",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 111,
+      "symbol": "KeyboardShortcuts.Key.f19",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 112,
+      "symbol": "KeyboardShortcuts.Key.f20",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 115,
+      "symbol": "KeyboardShortcuts.Key.keypad0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 116,
+      "symbol": "KeyboardShortcuts.Key.keypad1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 117,
+      "symbol": "KeyboardShortcuts.Key.keypad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 118,
+      "symbol": "KeyboardShortcuts.Key.keypad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 119,
+      "symbol": "KeyboardShortcuts.Key.keypad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 120,
+      "symbol": "KeyboardShortcuts.Key.keypad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 121,
+      "symbol": "KeyboardShortcuts.Key.keypad6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 122,
+      "symbol": "KeyboardShortcuts.Key.keypad7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 123,
+      "symbol": "KeyboardShortcuts.Key.keypad8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 124,
+      "symbol": "KeyboardShortcuts.Key.keypad9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 125,
+      "symbol": "KeyboardShortcuts.Key.keypadClear",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 126,
+      "symbol": "KeyboardShortcuts.Key.keypadDecimal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 127,
+      "symbol": "KeyboardShortcuts.Key.keypadDivide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 128,
+      "symbol": "KeyboardShortcuts.Key.keypadEnter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 129,
+      "symbol": "KeyboardShortcuts.Key.keypadEquals",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 130,
+      "symbol": "KeyboardShortcuts.Key.keypadMinus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 131,
+      "symbol": "KeyboardShortcuts.Key.keypadMultiply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift",
+      "line": 132,
+      "symbol": "KeyboardShortcuts.Key.keypadPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift",
+      "line": 22,
+      "symbol": "KeyboardShortcuts.Name.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift",
+      "line": 34,
+      "symbol": "KeyboardShortcuts.Recorder.init(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift",
+      "line": 52,
+      "symbol": "KeyboardShortcuts.RecorderCocoa.init(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/runners/2.263.0/work/KeyboardShortcuts/KeyboardShortcuts"
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KeyboardShortcuts  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="KeyboardShortcuts  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          KeyboardShortcuts 0.2.1 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/sindresorhus/KeyboardShortcuts">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Fsindresorhus.com%2FKeyboardShortcuts%2Fdocsets%2FKeyboardShortcuts.xml">
+            <img class="header-icon" src="img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">KeyboardShortcuts Reference</a>
+      <img class="carat" src="img/carat.png" />
+      KeyboardShortcuts  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts.html">KeyboardShortcuts</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts/Key.html">– Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts/Recorder.html">– Recorder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts/RecorderCocoa.html">– RecorderCocoa</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeyboardShortcuts/Shortcut.html">– Shortcut</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/NSMenuItem.html">NSMenuItem</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <div align="center">
+    <img width="900" src="https://github.com/sindresorhus/KeyboardShortcuts/raw/master/logo.png" alt="KeyboardShortcuts">
+    <br>
+</div>
+
+<p>This package lets you add support for user-customizable global keyboard shortcuts to your macOS app in minutes. It&rsquo;s fully sandbox and Mac App Store compatible. And it&rsquo;s used in production by <a href="https://sindresorhus.com/dato">Dato</a>, <a href="https://sindresorhus.com/jiffy">Jiffy</a>, and <a href="https://sindresorhus.com/lungo">Lungo</a>.</p>
+
+<p>This package is still in its early days. I&rsquo;m happy to accept more configurability and features. PR welcome! What you see here is just what I needed for my own apps.</p>
+
+<p><img src="https://github.com/sindresorhus/KeyboardShortcuts/raw/master/screenshot.png" width="532"></p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<p>macOS 10.11+</p>
+<h2 id='install' class='heading'>Install</h2>
+<h4 id='swift-package-manager' class='heading'>Swift Package Manager</h4>
+
+<p>Add <code>https://github.com/sindresorhus/KeyboardShortcuts</code> in the <a href="https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app">“Swift Package Manager” tab in Xcode</a>.</p>
+
+<p>You also need to set the build setting “Other Linker Flags” to <code>-weak_framework Combine</code> to work around <a href="https://github.com/feedback-assistant/reports/issues/44">this Xcode bug</a>.</p>
+<h4 id='carthage' class='heading'>Carthage</h4>
+<pre class="highlight plaintext"><code>github "sindresorhus/KeyboardShortcuts"
+</code></pre>
+<h4 id='cocoapods' class='heading'>CocoaPods</h4>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'KeyboardShortcuts'</span>
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>First, register a name for the keyboard shortcut.</p>
+
+<p><code>Constants.swift</code></p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">KeyboardShortcuts</span>
+
+<span class="kd">extension</span> <span class="kt">KeyboardShortcuts</span><span class="o">.</span><span class="kt">Name</span> <span class="p">{</span>
+    <span class="kd">static</span> <span class="k">let</span> <span class="nv">toggleUnicornMode</span> <span class="o">=</span> <span class="kt">Name</span><span class="p">(</span><span class="s">"toggleUnicornMode"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>You can then refer to this strongly-typed name in other places.</p>
+
+<p>You will want to make a view where the user can choose a keyboard shortcut.</p>
+
+<p><code>PreferencesView.swift</code></p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">SwiftUI</span>
+<span class="kd">import</span> <span class="kt">KeyboardShortcuts</span>
+
+<span class="kd">struct</span> <span class="kt">PreferencesView</span><span class="p">:</span> <span class="kt">View</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="kt">View</span> <span class="p">{</span>
+        <span class="kt">HStack</span> <span class="p">{</span>
+            <span class="kt">Text</span><span class="p">(</span><span class="s">"Toggle Unicorn Mode:"</span><span class="p">)</span>
+            <span class="kt">KeyboardShortcuts</span><span class="o">.</span><span class="kt">Recorder</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">toggleUnicornMode</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p><em>There&rsquo;s also <a href="#cocoa">support for Cocoa</a> instead of SwiftUI.</em></p>
+
+<p><code><a href="Enums/KeyboardShortcuts/Recorder.html">KeyboardShortcuts.Recorder</a></code> takes care of storing the keyboard shortcut in <code>UserDefaults</code> and also warning the user if the chosen keyboard shortcut is already used by the system or the app&rsquo;s main menu.</p>
+
+<p>Add a listener for when the user presses their chosen keyboard shortcut.</p>
+
+<p><code>AppDelegate.swift</code></p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Cocoa</span>
+<span class="kd">import</span> <span class="kt">KeyboardShortcuts</span>
+
+<span class="kd">@NSApplicationMain</span>
+<span class="kd">final</span> <span class="kd">class</span> <span class="kt">AppDelegate</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSApplicationDelegate</span> <span class="p">{</span>
+    <span class="kd">func</span> <span class="nf">applicationDidFinishLaunching</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">KeyboardShortcuts</span><span class="o">.</span><span class="nf">onKeyUp</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">toggleUnicornMode</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// The user pressed the keyboard shortcut for “unicorn mode”!</span>
+            <span class="k">self</span><span class="o">.</span><span class="n">isUnicornMode</span><span class="o">.</span><span class="nf">toggle</span><span class="p">()</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p><em>You can also listen to key down with <code>.onKeyDown()</code></em></p>
+
+<p><strong>That&rsquo;s all! ✨</strong></p>
+
+<p>You can find a complete example by opening <code>KeyboardShortcuts.xcodeproj</code> and then running the <code>KeyboardShortcutsExample</code> target.</p>
+
+<p>You can also find a <a href="https://github.com/sindresorhus/Plash/blob/b348a62645a873abba8dc11ff0fb8fe423419411/Plash/PreferencesView.swift#L121-L130">real-world example</a> in my Plash app.</p>
+<h4 id='cocoa' class='heading'>Cocoa</h4>
+
+<p>Use <a href="Sources/KeyboardShortcuts/RecorderCocoa.swift"><code><a href="Enums/KeyboardShortcuts/RecorderCocoa.html">KeyboardShortcuts.RecorderCocoa</a></code></a> instead of <code><a href="Enums/KeyboardShortcuts/Recorder.html">KeyboardShortcuts.Recorder</a></code>.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Cocoa</span>
+<span class="kd">import</span> <span class="kt">KeyboardShortcuts</span>
+
+<span class="kd">final</span> <span class="kd">class</span> <span class="kt">PreferencesViewController</span><span class="p">:</span> <span class="kt">NSViewController</span> <span class="p">{</span>
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">loadView</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">view</span> <span class="o">=</span> <span class="kt">NSView</span><span class="p">()</span>
+
+        <span class="k">let</span> <span class="nv">recorder</span> <span class="o">=</span> <span class="kt">KeyboardShortcuts</span><span class="o">.</span><span class="kt">RecorderCocoa</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="o">.</span><span class="n">toggleUnicornMode</span><span class="p">)</span>
+        <span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">recorder</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<h2 id='api' class='heading'>API</h2>
+
+<p><a href="https://sindresorhus.com/KeyboardShortcuts/Classes/KeyboardShortcuts.html">See the API docs.</a></p>
+<h2 id='tips' class='heading'>Tips</h2>
+<h4 id='show-a-recorded-keyboard-shortcut-in-a-code-nsmenuitem-code' class='heading'>Show a recorded keyboard shortcut in a <code>NSMenuItem</code></h4>
+
+<p>See <a href="https://sindresorhus.com/KeyboardShortcuts/Extensions/NSMenuItem.html"><code>NSMenuItem#setShortcut</code></a>.</p>
+<h2 id='faq' class='heading'>FAQ</h2>
+<h4 id='how-is-it-different-from-a-href-https-github-com-shpakovski-masshortcut-code-masshortcut-code-a' class='heading'>How is it different from <a href="https://github.com/shpakovski/MASShortcut"><code>MASShortcut</code></a>?</h4>
+
+<p>This package:</p>
+
+<ul>
+<li>Written in Swift with a swifty API.</li>
+<li>More native-looking UI component.</li>
+<li>SwiftUI component included.</li>
+<li>Support for listening to key down, not just key up.</li>
+<li>Swift Package Manager support.</li>
+</ul>
+
+<p><code>MASShortcut</code>:</p>
+
+<ul>
+<li>More mature.</li>
+<li>More features.</li>
+<li>Localized.</li>
+</ul>
+<h4 id='how-is-it-different-from-a-href-https-github-com-soffes-hotkey-code-hotkey-code-a' class='heading'>How is it different from <a href="https://github.com/soffes/HotKey"><code>HotKey</code></a>?</h4>
+
+<p><code>HotKey</code> is good for adding hard-coded keyboard shortcuts, but it doesn&rsquo;t provide any UI component for the user to choose their own keyboard shortcuts.</p>
+<h4 id='why-is-this-package-importing-code-carbon-code-isn-39-t-that-deprecated' class='heading'>Why is this package importing <code>Carbon</code>? Isn&rsquo;t that deprecated?</h4>
+
+<p>Most of the Carbon APIs were deprecated years ago, but there are some left that Apple never shipped modern replacements for. This includes registering global keyboard shortcuts. However, you should not need to worry about this. Apple will for sure ship new APIs before deprecating the Carbon APIs used here.</p>
+<h4 id='does-this-package-cause-any-permission-dialogs' class='heading'>Does this package cause any permission dialogs?</h4>
+
+<p>No.</p>
+<h2 id='related' class='heading'>Related</h2>
+
+<ul>
+<li><a href="https://github.com/sindresorhus/Preferences">Preferences</a> - Add a preferences window to your macOS app in minutes</li>
+<li><a href="https://github.com/sindresorhus/LaunchAtLogin">LaunchAtLogin</a> - Add &ldquo;Launch at Login&rdquo; functionality to your macOS app</li>
+<li><a href="https://github.com/sindresorhus/Defaults">Defaults</a> - Swifty and modern UserDefaults</li>
+<li><a href="https://github.com/search?q=user%3Asindresorhus+language%3Aswift">More…</a></li>
+</ul>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>MIT License © <a class="link" href="https://sindresorhus.com" target="_blank" rel="external">Sindre Sorhus</a></p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
